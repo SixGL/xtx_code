@@ -1,1 +1,91 @@
+.banner {
+    height: 500px;
+    background-color: #F5F5F5;
+}
 
+.banner .wrapper {
+    position: relative;
+    height: 500px;
+    background-color: rgb(105, 128, 221);
+}
+
+
+.banner .aside {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 500px;
+    width: 250px;
+    background-color: rgb(0, 0, 0, .8);
+}
+
+.banner .aside li {
+    height: 50px;
+    width: 250px;
+    line-height: 50px;
+}
+
+.banner .aside a {
+    position: relative;
+    font-size: 16px;
+    height: 50px;
+    padding-left: 10px;
+    display: block;
+    color: white;
+    line-height: 50px;
+}
+
+.banner .aside a span {
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.banner .aside a:hover {
+    background-color: aqua;
+}
+
+.banner .aside a::after {
+    position: absolute;
+    width: 16px;
+    right: 10px;
+    height: 16px;
+    top: 18.5px;
+    content: '';
+    background-image: url(../images/sprites.png);
+    background-position: -80px -110px;
+
+}
+
+
+.prev,
+.next {
+    position: absolute;
+    top: 228px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0, .5);
+}
+
+.prev {
+    left: 280px;
+    background-image: url(../images/sprites.png);
+    background-position: 15px -60px;
+}
+
+.next {
+    right: 20px;
+    background-image: url(../images/sprites.png);
+    background-position: -22px -60px;
+}
+
+.footer {
+    height: 300px;
+    background-color: #F5F5F5;
+}
+
+.footer .wrapper {
+    position: relative;
+    height: 300px;
+    background-color: rgb(141, 15, 57);
+}
