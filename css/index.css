@@ -9,6 +9,22 @@
     background-color: rgb(105, 128, 221);
 }
 
+.banner .banner-list {
+    position: relative;
+
+}
+
+.banner .banner-list li {
+    position: absolute;
+    background-color: aquamarine;
+}
+
+.banner .banner-list li:first-child {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
 
 .banner .aside {
     position: absolute;
@@ -79,13 +95,116 @@
     background-position: -22px -60px;
 }
 
+/* 圆点 */
+.banner .point {
+    position: absolute;
+    left: 52%;
+    bottom: 5%;
+    float: left;
+    width: 100px;
+    height: 10px;
+    background-color: rgb(233, 22, 57);
+}
+
+.banner .point li {
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 10px;
+    float: left;
+    height: 100%;
+    background-color: rgb(255, 255, 255, .4);
+}
+
+/* 此种方式无法配合js */
+/* .banner .point li:nth-child(3) {
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 10px;
+    float: left;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+} */
+
+.banner .point .current {
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 10px;
+    float: left;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+
 .footer {
-    height: 300px;
-    background-color: #F5F5F5;
+    height: 342px;
+    background-color: #333333;
 }
 
 .footer .wrapper {
     position: relative;
-    height: 300px;
-    background-color: rgb(141, 15, 57);
+    width: 1240px;
+}
+
+.footer .top {
+    padding-top: 59px;
+    padding-left: 153px;
+    height: 175px;
+    border-bottom: 3px solid #434343;
+
+}
+
+.footer .top li {
+    position: relative;
+    float: left;
+    margin-right: 250px;
+    width: 195px;
+    height: 58px;
+    line-height: 58px;
+}
+
+.footer .top li:last-child {
+    margin-right: 0px;
+}
+
+/* 伪元素标签添加到行内 */
+/* 如果行内快和行内文字无法通过vertical-align: middle;或行高对齐。定位实现 */
+.footer .top li::before {
+    position: absolute;
+    /* content必须存在，即使为‘’ */
+    content: '';
+    width: 58px;
+    left: 0;
+    top: 0;
+    height: 58px;
+    background-image: url(../images/sprites.png);
+    vertical-align: middle;
+}
+
+.footer .top li span {
+    margin-left: 72px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.footer .top li:nth-child(2)::before {
+    background-position: -64px 0;
+}
+
+.footer .top li:nth-child(3)::before {
+    background-position: -124px 0;
+}
+
+.footer .bottom {
+    text-align: center;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer .bottom a {
+    color: #fff;
+}
+
+.footer .bottom p:last-child {
+    padding-top: 20px;
+    color: #fff;
 }
