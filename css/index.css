@@ -134,6 +134,37 @@
     background-color: rgb(255, 255, 255);
 }
 
+.goods .title {
+    line-height: 80px;
+    height: 80px;
+    font-size: 25px;
+    vertical-align: middle;
+}
+.goods .title h2{
+    float: left;
+    color: #000;
+    font-size: 25px;
+}
+
+.goods .title h2 span{
+    font-size: 16px;
+    margin-left: 20px;
+    color: #333333;
+}
+.goods .title a{
+    font-size: 16px;
+    float: right;
+    
+}
+.goods .title a::after{
+    width: 7px;
+    height: 13px;
+    margin-left: 10px;
+    display: inline-block;
+    content: '';
+    background-image: url(../images/sprites.png);
+    background-position: -0px -110px;
+}
 
 .footer {
     height: 342px;
@@ -150,7 +181,6 @@
     padding-left: 153px;
     height: 175px;
     border-bottom: 3px solid #434343;
-
 }
 
 .footer .top li {
