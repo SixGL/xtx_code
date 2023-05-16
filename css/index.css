@@ -134,29 +134,33 @@
     background-color: rgb(255, 255, 255);
 }
 
-.goods .title {
+.goods .hd {
     line-height: 80px;
     height: 80px;
     font-size: 25px;
     vertical-align: middle;
 }
-.goods .title h2{
+
+.goods .hd h2 {
+    height: 80px;
     float: left;
     color: #000;
     font-size: 25px;
 }
 
-.goods .title h2 span{
+.goods .hd h2 span {
     font-size: 16px;
     margin-left: 20px;
     color: #333333;
 }
-.goods .title a{
+
+.goods .hd a {
     font-size: 16px;
     float: right;
-    
+
 }
-.goods .title a::after{
+
+.goods .hd a::after {
     width: 7px;
     height: 13px;
     margin-left: 10px;
@@ -164,6 +168,37 @@
     content: '';
     background-image: url(../images/sprites.png);
     background-position: -0px -110px;
+}
+
+
+.goods .bd li {
+    margin-right: 8px;
+    line-height: 405px;
+    width: 304px;
+    height: 405px;
+    background-color: aqua;
+    float: left;
+    text-align: center;
+}
+
+.goods .bd li:last-child {
+    margin-right: 0px;
+}
+
+
+.goods .bd li img {
+    vertical-align: top;
+    width: 304px;
+}
+
+/* .goods .bd li a {
+    vertical-align: top;
+    width: 304px;
+    height: 405px;
+    line-height: 100%;
+} */
+.goods .bd li h3 {
+    color: red;
 }
 
 .footer {
