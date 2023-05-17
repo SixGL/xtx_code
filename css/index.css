@@ -154,12 +154,14 @@
     color: #333333;
 }
 
-.goods .hd a {
+.goods .hd a,
+.shengxian .title .more {
     font-size: 16px;
     float: right;
 
 }
 
+.shengxian .title .more::after,
 .goods .hd a::after {
     width: 7px;
     height: 13px;
@@ -200,6 +202,58 @@
 .goods .bd li h3 {
     color: red;
 }
+
+
+/* 生鲜 */
+.shengxian .title {
+    height: 96px;
+    line-height: 96px;
+}
+
+.shengxian .title h2 {
+    float: left;
+    height: 96px;
+}
+
+.shengxian .title ul {
+    float: right;
+}
+
+.shengxian .title ul li {
+    float: left;
+}
+
+.shengxian .title ul li a {
+    margin-right: 6px;
+    padding: 6px;
+    margin-left: 6px;
+}
+
+.shengxian .title ul li a:hover {
+    background-color: aqua;
+}
+
+
+.shengxian .title li:last-child {
+    margin-right: 30px;
+}
+
+/*  */
+.shengxian .bd .left {
+    width: 240px;
+    float: left;
+    height: 600px;
+    background-color: skyblue;
+
+}
+
+.shengxian .bd .right {
+    float: left;
+    width: 1000px;
+    height: 600px;
+    background-color: palevioletred;
+}
+
 
 .footer {
     height: 342px;
