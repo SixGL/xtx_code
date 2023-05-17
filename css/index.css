@@ -173,12 +173,18 @@
 
 .goods .bd li {
     margin-right: 8px;
-    line-height: 405px;
     width: 304px;
     height: 405px;
     background-color: aqua;
     float: left;
     text-align: center;
+}
+
+
+.goods .bd .price,
+.goods .bd .title {
+    margin-top: 20px;
+    color: firebrick;
 }
 
 .goods .bd li:last-child {
@@ -187,16 +193,10 @@
 
 
 .goods .bd li img {
-    vertical-align: top;
     width: 304px;
 }
 
-/* .goods .bd li a {
-    vertical-align: top;
-    width: 304px;
-    height: 405px;
-    line-height: 100%;
-} */
+
 .goods .bd li h3 {
     color: red;
 }
