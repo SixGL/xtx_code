@@ -244,8 +244,14 @@
     float: left;
     height: 600px;
     background-color: skyblue;
-
 }
+
+.shengxian .bd .left img {
+    width: 240px;
+    height: 600px;
+    background-color: skyblue;
+}
+
 
 .shengxian .bd .right {
     float: left;
