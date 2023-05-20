@@ -238,6 +238,8 @@
     margin-right: 30px;
 }
 
+
+
 /*  */
 .shengxian .bd .left {
     width: 240px;
@@ -260,6 +262,77 @@
     background-color: palevioletred;
 }
 
+.shengxian .bd .right .top li {
+    position: relative;
+    float: left;
+    background-color: red;
+    width: 198px;
+    height: 295px;
+    margin-right: 2.5px;
+}
+
+.shengxian .bd .right .bottom li {
+    float: left;
+    position: relative;
+    margin-top: 10px;
+    background-color: green;
+    width: 198px;
+    height: 295px;
+    margin-right: 2.5px;
+}
+
+.shengxian .bd .right .bottom li:last-child,
+.shengxian .bd .right .top li:last-child {
+    margin-right: 0px;
+}
+
+.shengxian .bd .right .bottom li img,
+.shengxian .bd .right .top li img {
+    width: 198px;
+}
+
+.shengxian .bd .right .bottom li .goodtitle,
+.shengxian .bd .right .bottom li .goodprice,
+.shengxian .bd .right .top li .goodtitle,
+.shengxian .bd .right .top li .goodprice {
+    color: #F5F5F5;
+    text-align: center;
+}
+
+.shengxian .bd .right .bottom li .fun,
+.shengxian .bd .right .top li .fun {
+    position: absolute;
+    text-align: center;
+    bottom: 10px;
+    height: 30px;
+}
+
+.shengxian .bd .right .bottom li .fun li,
+.shengxian .bd .right .top li .fun li {
+    float: left;
+    width: 96px;
+    margin-left: 1px;
+    height: 30px;
+}
+
+.shengxian .bd .right .bottom li .fun li:last-child,
+.shengxian .bd .right .top li .fun li:last-child {
+    width: 96px;
+    margin-right: 1px;
+    float: right;
+    height: 30px;
+}
+
+.shengxian .bd .right .bottom li .fun li span,
+.shengxian .bd .right .top li .fun li span {
+    float: right;
+    width: 96px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    border-color: royalblue;
+    height: 30px;
+}
 
 .footer {
     height: 342px;
