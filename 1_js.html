@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    table,
+    th,
+    td {
+        border: 1px solid red;
+
+    }
+
+    th {
+        background-color: aqua;
+    }
+</style>
+
+<body>
+    <p id="value">6666</p>
+
+    <script>
+        let person = [{ 'username': "小猫1", 'age': 19 }, { 'username': "小猫2", 'age': 12 }, { 'username': "小猫3", 'age': 21 }];
+
+
+        let value = ""
+        person.forEach(personIt => {
+            // for (const key in personIt) {
+            value += personIt.username + personIt.age
+            // }
+        })
+
+        document.getElementById("value").innerHTML = value
+
+        // let random = ['tree', 795, [0, 1, 2]];
+
+        // let temp = 0
+        // sequence.forEach(it => {
+        //     if (it > temp) {
+        //         temp = it
+        //     }
+        // })
+        // console.log(`${temp}`)
+        // let newArray = new Array()
+        // let new1=sequence.splice(2,3)
+        // console.log(`${new1}   ${sequence}`)
+        // sequence.splice(2, 0, 4)
+        // console.log(` ${sequence}`)
+        // random.forEach(element => {
+        //     document.write(element + "-")
+        //     if (element instanceof Array) {
+        //         element.forEach(childElement => {
+        //             document.write(childElement + "-")
+        //         })
+        //     }
+        // });
+
+        // // mac 的反引号就在数字1的左边，但是你需要按住option(alt)键并且在英文状态下即可。
+        // let username = "z"
+        // console.log("姓名：${username}")
+        // document.write(`名：${username}`)
+
+        // let goodName = prompt("商品名称")
+        // let price = prompt("价格")
+        // let num = prompt("数量")
+
+
+        // document.write(`
+        // <table>
+        //     <tr>
+        //         <th>商品名称</th>
+        //         <th>价格</th>
+        //         <th>数量</th>
+        //     </tr>
+        //     <tr>
+        //         <td>${goodName}</td>
+        //         <td>${price}</td>
+        //         <td>${num}</td>
+        //      </tr>
+        //  </table>
+        // `)
+    </script>
+
+
+</body>
+
+</html>
