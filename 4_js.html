@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/goodlist.css">
+</head>
+
+<body>
+    <div class="box">
+        <div class="box_bd">
+            <ul>
+                <script>
+                    let goodsArray = [
+                        { src: 'images/course01.png', title: '商品1', num: 200 },
+                        { src: 'images/course02.png', title: '商品2', num: 200 },
+                        { src: 'images/course03.png', title: '商品3', num: 200 },
+                        { src: 'images/course04.png', title: '商品4', num: 200 },
+                        { src: 'images/course05.png', title: '商品5', num: 200 },
+                        { src: 'images/course06.png', title: '商品6', num: 200 },
+                        { src: 'images/course07.png', title: '商品7', num: 200 },
+                        { src: 'images/course08.png', title: '商品8', num: 200 }
+                    ]
+
+                    goodsArray.forEach(goods => {
+                        document.write(`
+                    <li>
+                        <a href="#"><img src="${goods.src}" alt="" /></a>
+                        <h3>${goods.title}</h3>
+                        <div>
+                            <span>${goods.num}</span> <span>件</span>
+                        </div>
+
+                    </li>
+           `)
+                    })
+                </script>
+            </ul>
+        </div>
+    </div>
+    <!-- <div class="box_bd">
+        <ul class="content clearfix">
+
+            <script>
+                let goodsArray = [{
+                    src: 'images/course01.png', title: '商品1', num: 200,
+                    src: 'images/course02.png', title: '商品2', num: 200,
+                    src: 'images/course03.png', title: '商品3', num: 200,
+                    src: 'images/course04.png', title: '商品4', num: 200,
+                    src: 'images/course05.png', title: '商品5', num: 200,
+                    src: 'images/course06.png', title: '商品6', num: 200,
+                    src: 'images/course07.png', title: '商品7', num: 200,
+                    src: 'images/course08.png', title: '商品8', num: 200,
+                }]
+
+                for (let i = 0; i < goodsArray.length; i++) {
+                    console.log(`${goodsArray[i].title}`)
+                }
+                // goodsArray.forEach(goods => {
+                //     document.write(`</br>`)
+                //     document.write(`
+                //     <li>
+                //         <a href="#"><img src="images/course01.png" alt="" /></a>
+                //         <h3>商品标题</h3>
+                //         <div>
+                //             <span>2311</span> <span>件</span>
+                //         </div>
+        
+                //     </li>
+                //    `)
+                // })
+            </script>
+        </ul>
+    </div> -->
+    <!-- 
+    // // var x = myFunction(4, "3");
+    // // document.getElementById("demo").innerHTML = x;
+
+    // // function myFunction(a, b) {
+    // // return a + b;
+    // // }
+
+    // // function newx(a, b, c) {
+    // // return a * b * c
+    // // }
+
+    // // document.getElementById("demo").innerHTML = newx(1, 2)
+
+    // // let x = (x, y) => x * y;
+    // // document.getElementById("demo").innerHTML = x(2,3);
+    // let array = [1, 4, 2, 6, 3, 9]
+    // for (let i = 1; i < array.length; i++) { // for (let X=0; X < array.length; X++) { // if (array[X]>
+        array[X + 1]) {
+        // let temp = array[X]
+        // array[X] = array[X + 1]
+        // array[X + 1] = temp
+        // }
+        // }
+        // }
+        // console.log(array)
+        // // array.sort(function (a, b) {
+        // // return a - b
+        // // })
+        // // console.log(array)
+
+        // myFunction();
+
+        // // 此处的代码可以把 carName 作为全局变量使用。
+        // document.getElementById("demo").innerHTML = "我可以显示 " + carName1;
+        // //carName1 自动全局
+        // function myFunction() {
+        // carName1 = "porsche";
+        // }
+ -->
+
+
+</body>
+
+</html>

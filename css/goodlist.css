@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f5f7;
+}
+
+.box {
+    text-align: center;
+    background-color: rgb(203, 160, 31);
+}
+
+.box_bd {
+    width: 1030px;
+    display: inline-block;
+    background-color: rgb(47, 14, 181);
+}
+
+.box_bd ul {
+    width: 1030px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: blueviolet;
+}
+
+
+.box_bd ul li {
+    list-style: none;
+    float: left;
+    width: 250px;
+    margin-right: 10px;
+}
+
+.box_bd ul li img {
+    width: 100%;
+}
+
+.box_bd ul li:nth-child(5) {
+    margin-right: 0px;
+}
+
+.box_bd ul li:last-child {
+    margin-right: 0px;
+}

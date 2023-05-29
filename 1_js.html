@@ -29,13 +29,23 @@
 
 
         let value = ""
-        person.forEach(personIt => {
-            // for (const key in personIt) {
-            value += personIt.username + personIt.age
-            // }
-        })
+        document.write(`<table>`)
+        document.write(`<tr>`)
+        document.write(`<th>${"序号"}</th>`)
+        document.write(`<th>${"姓名"}</th>`)
+        document.write(`<th>${"年级"}</th>`)
+        document.write(`</tr>`)
+        for (let x = 0; x < person.length; x++) {
+            document.write(`<tr>`)
+            document.write(`<td>${x + 1}</td>`)
+            document.write(`<td>${person[x].username}</td>`)
+            document.write(`<td>${person[x].age}</td>`)
+            document.write(`</tr>`)
+        }
+        document.write(`</table>`)
 
-        document.getElementById("value").innerHTML = value
+
+        // document.getElementById("value").innerHTML = value
 
         // let random = ['tree', 795, [0, 1, 2]];
 
