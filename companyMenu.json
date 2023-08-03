@@ -1,0 +1,125 @@
+{
+    "code": "0",
+    "message": null,
+    "data": {
+        "basicInformation": [
+            {
+                "menuName": "工商信息",
+                "webUrl": "",
+                "count": ""
+            },
+            {
+                "menuName": "股东信息",
+                "webUrl": "",
+                "count": ""
+            },
+            {
+                "menuName": "主要人员",
+                "webUrl": "",
+                "count": ""
+            },
+            {
+                "menuName": "最终受益人",
+                "webUrl": "",
+                "count": ""
+            },
+            {
+                "menuName": "对外投资",
+                "webUrl": "",
+                "count": ""
+            },
+            {
+                "menuName": "分支机构",
+                "webUrl": "",
+                "count": ""
+            },
+            {
+                "menuName": "变更记录",
+                "webUrl": "",
+                "count": ""
+            },
+            {
+                "menuName": "企业年报",
+                "webUrl": "",
+                "count": ""
+            },
+            {
+                "menuName": "融资经历",
+                "webUrl": "",
+                "count": ""
+            }
+        ],
+        "ProductOwnership": [
+            {
+                "menuName": "APP",
+                "webUrl": "",
+                "count": ""
+            },
+            {
+                "menuName": "网站",
+                "webUrl": "",
+                "count": ""
+            },
+            {
+                "menuName": "商标",
+                "webUrl": "",
+                "count": ""
+            },
+            {
+                "menuName": "小程序",
+                "webUrl": "",
+                "count": ""
+            },
+            {
+                "menuName": "微博",
+                "webUrl": "",
+                "count": ""
+            },
+            {
+                "menuName": "公众号",
+                "webUrl": "",
+                "count": ""
+            },
+            {
+                "menuName": "1688",
+                "webUrl": "",
+                "count": ""
+            },
+            {
+                "menuName": "京东",
+                "webUrl": "",
+                "count": ""
+            },
+            {
+                "menuName": "抖店",
+                "webUrl": "",
+                "count": ""
+            },
+            {
+                "menuName": "天猫",
+                "webUrl": "",
+                "count": ""
+            },
+            {
+                "menuName": "软件著作权",
+                "webUrl": "",
+                "count": ""
+            },
+            {
+                "menuName": "作品著作权",
+                "webUrl": "",
+                "count": ""
+            },
+            {
+                "menuName": "专利",
+                "webUrl": "",
+                "count": ""
+            },
+            {
+                "menuName": "竞品",
+                "webUrl": "",
+                "count": ""
+            }
+        ]
+    }
+}
